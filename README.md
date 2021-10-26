@@ -1,5 +1,4 @@
-
-## Introduction
+## Introduction
 
 The following repository contains a practical example of making use of [Ephemeral Proxies API](https://rapidapi.com/rpi4gx/api/ephemeral-proxies) to concurrently hit a website from many different proxies.
 
@@ -13,7 +12,7 @@ git clone git@github.com:rpi4gx/ephemeral-proxies-concurrency-example.git
 $ npm install
 ```
 
-## Running
+## Running
 
 Example: 
 ```
@@ -27,6 +26,6 @@ Hiting https://www.mywebsite.com using 200 proxies with 200 different ips from 2
 Successfull requests against target: 198
 ```
 
-## Requeriments
+## Requeriments
  * A valid RapidAPI key, you can obtain one for free on [Rapid API](https://rapidapi.com)
  * Optional: A subscription to a payment plan for [Ephemeral Proxies API](https://rapidapi.com/rpi4gx/api/ephemeral-proxies)
