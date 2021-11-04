@@ -23,7 +23,7 @@ $ npx ts-node src/main.ts \
 
 Collecting 200 proxies ...
 Hiting https://www.mywebsite.com using 200 proxies with 200 different ips from 24 different countries ...
-Successfull requests against target: 198
+Successful requests against target: 198
 ```
 
 ## Requeriments
