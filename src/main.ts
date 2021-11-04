@@ -83,7 +83,7 @@ async function hitTarget(proxIp: string, proxyPort: number,  targetUrl:string) {
             let results = await Promise.allSettled(proxies.map(p => hitTarget(p.host, p.port, target)))
             let targetSuccess = 0
             results.map((r: any) => { if (r.status == 'fulfilled') targetSuccess++ })
-            console.log(`Successfull requests against target: ${targetSuccess}`)
+            console.log(`Successful requests against target: ${targetSuccess}`)
         }
     } catch (e) {
         console.warn(e)
